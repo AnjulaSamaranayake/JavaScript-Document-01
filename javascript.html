@@ -8,61 +8,9 @@
         <h1 id="arithOp"></h1>
         <h2 id="comOp"></h2>
         <h3 id="assiOp"></h3>
+        <h1 id="fruits"></h1>
 
-        <script>
-            document.write("Hello World!")
-
-            // BigInt 
-            var z= BigInt(9999999999999999);
-            document.getElementById("numType").innerHTML = z;
-
-            // variable types
-            var a = BigInt(99999);
-            typeof(a);
-            console.log(typeof(a)); 
-
-            var b = false;
-            typeof(b);
-            console.log(typeof(b));
-
-            // Arithmatic Operators
-            var x = 20;
-            var y = 6;
-            document.getElementById("arithOp").innerHTML = x+y;
-            document.getElementById("arithOp").innerHTML = x-y;
-            document.getElementById("arithOp").innerHTML = x*y;
-            document.getElementById("arithOp").innerHTML = x/y;
-            document.getElementById("arithOp").innerHTML = x%y;
-            // pre increament
-            document.getElementById("arithOp").innerHTML = ++x;
-            // post incremeant
-            document.getElementById("arithOp").innerHTML = x++;
-            console.log(x)
-
-            // Comparison Operators
-            var m = 22;
-            var n = 20;
-            document.getElementById("comOp").innerHTML = m == n;
-            document.getElementById("comOp").innerHTML = m != n;
-            document.getElementById("comOp").innerHTML = m === n;
-            document.getElementById("comOp").innerHTML = m !== n;
-            document.getElementById("comOp").innerHTML = m < n;
-            document.getElementById("comOp").innerHTML = m > n;
-            document.getElementById("comOp").innerHTML = m <= n;
-            document.getElementById("comOp").innerHTML = m >= n;
-            // Ternary Operator
-            document.getElementById("comOp").innerHTML = n < m ? "less than" : "greater than";
-
-            // Assignment Operators
-            var g = 60;
-            var h = 50;
-            document.getElementById("assiOp").innerHTML = g+=h; //g=g+h
-            console.log(g)
-            console.log(h)
-            document.getElementById("assiOp").innerHTML = g-=h; //g=g-h
-            console.log(g)
-            console.log(h)
-        </script>
+        <script src="firstjs.js"></script>
 
     </body>
 </html>
