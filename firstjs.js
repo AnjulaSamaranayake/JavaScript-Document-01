@@ -189,3 +189,75 @@ console.log(Cars);
 console.log("Concat : ", Cars.concat(friut));
 console.log(Cars);
 console.log(friut);
+
+//LOOPS
+
+//For Loops
+var buddys = ["sadaru", "mathaya", "kalana", "buddima"];
+console.log(buddys);
+
+for ( i=0; i < buddys.length; i++) {
+    console.log(buddys[i]);
+}
+
+//While Loop
+let v=5;
+
+while (v <= 10) {
+    console.log("I value is can be: ", v);
+    v++;
+}
+
+let l = 990;
+while(l<=1000){
+    console.log("L value is can be: ", l*9);
+    l+=10;
+}
+
+//Do While Loop
+var j= 8;
+
+do{
+    console.log("J value can be: ", j/2);
+    j++;
+}while(j<7);
+
+var p=15;
+do{
+    console.log("values in between j and p: ", j);
+    j++;
+}while(j<p);
+
+//if, else if, else
+
+var mark = 24;
+
+if(mark >75){
+    console.log("Grade A")
+}else if(mark>65){
+    console.log("GRade B")
+}else if(mark>50){
+    console.log("Grade C")
+}else if(mark>35){
+    console.log("Grade S")
+}else{
+    console.log("You are fail... Repeat the Module!!")
+}
+
+//Switch Case
+
+var colour = "Green";
+
+switch(colour){
+    case "Red" :
+        console.log("Its Blood");
+        break;
+    case "Blue" :
+        console.log("Its Sky");
+        break;
+    case "Green" :
+        console.log("Its Tree");
+        break;
+    default:
+        console.log("No colour found");     
+}
