@@ -261,3 +261,27 @@ switch(colour){
     default:
         console.log("No colour found");     
 }
+
+//Function
+//Regular Function
+
+function multiply1 (a, b) {
+    console.log(a,b);
+    console.log(arguments); //arguments in regular function
+    return a*b;
+}
+
+var regualrs = multiply1(2,7);
+console.log("Regular Result is : ", regualrs);
+
+//Arrow Function
+const arrow = (a,b) => a*b ;
+
+const arrowrs = arrow(2,9);
+console.log("Arrow Result : ", arrowrs);
+
+const arrowargument = (...args) => {
+    console.log(args);
+}
+
+const arrowargs = arrowargument(9,9);
