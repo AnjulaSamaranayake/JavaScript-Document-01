@@ -1,4 +1,4 @@
-document.write("Hello World!")
+// document.write("Hello World!")
 
 // BigInt 
 var z= BigInt(9999999999999999);
@@ -285,3 +285,35 @@ const arrowargument = (...args) => {
 }
 
 const arrowargs = arrowargument(9,9);
+
+//New
+function child(name, age) {
+    this.name = name;
+    this.age = age;
+    console.log(this);
+}
+
+new child("hasarnga", 25);
+new child("dasun", 31);
+
+//click event
+
+function clickFunction() {
+    alert ("Button Clicked")
+}
+
+// Submit Event
+ function submitFunction() {
+    var inner = document.getElementById("textIn").value;
+    alert("Your input " + inner + " is succsesfully submited");
+ }
+
+ //OnChange Event
+ function onChangeFun(){
+    // var newOnChange = document.getElementById('onChange').value;
+    // document.getElementById('onChanged').innerHTML = newOnChange;
+
+    document.getElementById('onChanged').innerHTML = document.getElementById('onChange').value;
+ }
+
+
